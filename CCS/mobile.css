@@ -18,11 +18,77 @@ html{
 body {
     width: 100vh;
     height: 300vh;
-    background-color: var(--softGray);
+    background-color: var(--lightTur);
 }
 
 main {
     display: grid;
     grid-template-rows: repeat(3, 1fr);
     height: 100%;
+}
+.myInfo {
+    display: grid;
+    grid-template-rows: .7fr .1fr .2fr;
+}
+
+.photo {
+    background-image: url("https://scontent.fcen1-1.fna.fbcdn.net/v/t1.6435-9/165757814_1934445056702987_1353192354150139298_n.jpg?_nc_cat=111&ccb=1-3&_nc_sid=09cbfe&_nc_eui2=AeHeiPHM4biCpZ2_coHgsSDHqb6TUh544k2pvpNSHnjiTak9Qnvm8XgmgrjLFQTri7W1QZrH0MQ0niy8770-t485&_nc_ohc=FmetHUyxRooAX8nUl54&tn=CmTNy2KYTQrFN-PR&_nc_ht=scontent.fcen1-1.fna&oh=aa7af92bdf9be3bc52fad635dc0e160e&oe=60E4E585");
+    background-size: 300px 300px;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: center;
+}
+
+.media {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    height: 100%;
+    width: 100vh;
+}
+
+.media div {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    justify-items: center;
+}
+
+.media div a {
+    width: 50px;
+}
+
+.facebook {
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Facebook_icon_2013.svg/1200px-Facebook_icon_2013.svg.png");
+    background-size: 50px 50px;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: center;
+}
+
+.twitter {
+    background-image: url("https://cdn.icon-icons.com/icons2/895/PNG/512/Twitter_icon_icon-icons.com_69154.png");
+    background-size: 50px 50px;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: center;
+}
+
+.instagram {
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/1024px-Instagram_icon.png");
+    background-size: 50px 50px;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: center;
+}
+
+.intro{
+    font-size: 2rem;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+}
+
+.intro p {
+    width: 90%;
+    color: var(--darkGray);
 }
